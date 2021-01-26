@@ -1,0 +1,44 @@
+{
+  "name": "strapi-provider-upload-github-api",
+  "version": "1.0.0",
+  "keywords": [
+    "upload",
+    "github",
+    "strapi",
+    "provider",
+    "file upload"
+  ],
+  "description": "GitHub API upload provider for strapi",
+  "homepage": "https://github.com/nhvu1988/strapi-provider-upload-github-api",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "nhvu1988@gmail.com",
+    "name": "Vu Nguyen",
+    "url": "https://nhvu1988.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nhvu1988/strapi-provider-upload-github-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nhvu1988/strapi-provider-upload-github-api/issues"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "dependencies": {
+    "@octokit/rest": "^18.0.14",
+    "async-retry": "^1.3.1"
+  },
+  "license": "MIT"
+}
