@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-github-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [
     "upload",
     "github",
