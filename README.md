@@ -1,6 +1,8 @@
-# strapi-provider-upload-github-api
+# strapi-provider-upload-github-plus
 
 Github API provider for Strapi CMS file upload.
+
+This project is a fork of [strapi-provider-upload-github-api](https://github.com/nhvu1988/strapi-provider-upload-github-api).
 
 ## Prerequisite
 
@@ -11,7 +13,7 @@ Github API provider for Strapi CMS file upload.
 ## Installation
 
 ```
-npm install strapi-provider-upload-github-api
+npm install strapi-provider-upload-github-plus
 ```
 
 ## Configurations
@@ -21,12 +23,13 @@ npm install strapi-provider-upload-github-api
 ```javascript
 module.exports = ({ env }) => ({
   upload: {
-    provider: 'github-api',
+    provider: 'github-plus',
     providerOptions: {
       repo: env('GITHUB_UPLOAD_REPO'),
       user: env('GITHUB_UPLOAD_USER'),
       token: env('GITHUB_UPLOAD_TOKEN'),
-      publicUrl: env('GITHUB_UPLOAD_PUBLIC_URL')
+      publicUrl: env('GITHUB_UPLOAD_PUBLIC_URL'),
+      directory: env('GITHUB_UPLOAD_DIR')
     }
   },
 });
@@ -39,6 +42,7 @@ GITHUB_UPLOAD_REPO=uploads
 GITHUB_UPLOAD_USER=user-name
 GITHUB_UPLOAD_TOKEN=***
 GITHUB_UPLOAD_PUBLIC_URL=https://user-name.github.io/uploads
+GITHUB_UPLOAD_DIR=assets
 ```
 
 ## Parameters
@@ -47,3 +51,6 @@ GITHUB_UPLOAD_PUBLIC_URL=https://user-name.github.io/uploads
 - user - github user name
 - token - github user token [(Creating a personal access token - GitHub Docs)](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 - publicUrl - the publishing url without slash (`/`) at the end.
+
+## Credits
+- [nhvu1988](https://github.com/nhvu1988)

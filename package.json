@@ -1,6 +1,6 @@
 {
-  "name": "strapi-provider-upload-github-api",
-  "version": "1.0.1",
+  "name": "strapi-provider-upload-github-plus",
+  "version": "1.0.2",
   "keywords": [
     "upload",
     "github",
@@ -8,8 +8,8 @@
     "provider",
     "file upload"
   ],
-  "description": "GitHub API upload provider for strapi",
-  "homepage": "https://github.com/nhvu1988/strapi-provider-upload-github-api",
+  "description": "GitHub upload provider for strapi",
+  "homepage": "https://github.com/Axelen123/strapi-provider-upload-github-plus",
   "directories": {
     "lib": "./lib"
   },
@@ -21,16 +21,15 @@
     "isProvider": true
   },
   "author": {
-    "email": "nhvu1988@gmail.com",
-    "name": "Vu Nguyen",
-    "url": "https://nhvu1988.com"
+    "email": "axelakesson05@gmail.com",
+    "name": "Ax333l"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nhvu1988/strapi-provider-upload-github-api.git"
+    "url": "git://github.com/Axelen123/strapi-provider-upload-github-plus.git"
   },
   "bugs": {
-    "url": "https://github.com/nhvu1988/strapi-provider-upload-github-api/issues"
+    "url": "https://github.com/Axelen123/strapi-provider-upload-github-plus/issues"
   },
   "engines": {
     "node": ">= 10.0.0",
